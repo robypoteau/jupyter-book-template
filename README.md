@@ -5,3 +5,9 @@ Inspired by [Python Data Science Handbook](https://github.com/jakevdp/PythonData
 In this project you can must create an ordering for your pages using the titles and the script will auto-generate the links between pages.
 
 You can find the book [here](https://www.robopoto.com/jupyter-book-template/).
+
+
+'''
+jupyter nbconvert notebooks/*.ipynb
+mv notebooks/*.ipynb ./docs/
+'''
